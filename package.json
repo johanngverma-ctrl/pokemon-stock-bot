@@ -1,9 +1,13 @@
 {
-  "name": "pokemon-bot",
+  "name": "pokemon-stock-bot",
   "version": "1.0.0",
+  "description": "Discord bot that monitors Pokémon TCG stock",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "discord.js": "^14.12.1",
